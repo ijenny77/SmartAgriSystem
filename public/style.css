@@ -126,3 +126,54 @@ footer {
 .notfound .btn:hover {
     background-color: #e60000;
 }
+
+.features {
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.feature-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature-card {
+    background-color: #f0f8f0;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 250px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+
+.team{
+    margin-left: 8rem;
+    margin-right: 7rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.member {
+    text-align: center;
+    flex: 1 1 200px;
+    background-color: #ddf5dd;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.member img {
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+

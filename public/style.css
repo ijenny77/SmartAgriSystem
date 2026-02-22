@@ -314,12 +314,6 @@ footer {
   padding: 0;
 }
 
-nav {
-  background: green;
-  padding: 10px 20px;
-  color: white;
-}
-
 nav a {
   color: white;
   text-decoration: none;

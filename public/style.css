@@ -1,10 +1,10 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
     color: #333;
-}
+} */
 
 header {
     background-color: #4CAF50;
@@ -84,13 +84,14 @@ main {
 
 
 footer {
-    background-color: #222;
+    background-color: #2e7d32;
     color: white;
     padding: 10px;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
+    min-height:6vh ;
 }
 
 
@@ -364,4 +365,47 @@ button {
 /* Show message after clicking submit */
 #submitted:target {
   display: block;
+}
+
+
+.morecrops{
+    color:black;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.morecrops a{
+    color: #15a21c;
+}
+
+
+
+.container {
+         padding: 30px;
+}
+.box {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.box h2 {
+    color: #2e7d32;
+}
+ul {
+    padding-left: 20px;
+}
+
+#arrow{
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 3rem;
+    color: white;
+    margin-left: 4rem;
+}
+
+.box-with-arrow{
+    display:flex;
+    gap: 31rem;
 }

@@ -1,60 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About - My Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>About Page</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Navbar */
+    nav {
+      background-color: #43a047;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* About Section */
+    .about-container {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .about-container h1 {
+      margin-bottom: 10px;
+    }
+
+    .about-container p {
+      color: #555;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+
+    /* Mission & Vision */
+    .info-cards {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .info-card {
+      background: white;
+      padding: 25px;
+      width: 260px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+
+    .info-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .info-card h3 {
+      color: #2e7d32;
+    }
+
+    /* Team Section */
+    .team {
+      padding: 40px 20px;
+    }
+
+    .team h2 {
+      margin-left: 40px;
+    }
+
+    .team-container {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .member {
+      background: #c8e6c9;
+      padding: 25px;
+      width: 300px;
+      border-radius: 15px;
+      text-align: center;
+      transition: 0.3s;
+    }
+
+    .member:hover {
+      transform: scale(1.05);
+    }
+
+    .member img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+    .member h3 {
+      margin: 10px 0 5px;
+    }
+
+    .member p {
+      color: #333;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+
 </head>
+
 <body>
-    <form action="">
-    <header>
-        <h1>About us</h1>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">About</a>
-          <a href="guide.html">Crop Guide</a>
-        </nav>
-    </header>
 
-    <main>
-        <h2>About Page</h2>
-        <p>This is the about page. Write something about yourself or your project here.</p>
-    </main>
+  <!-- Navbar -->
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Crop Guide</a>
+  </nav>
 
-    <section class="cards">
-        <div class="card">
-            <h3>Our Mission</h3>
-            <p>To create a simple and beautiful website for learning and fun.</p>
-        </div>
-        <div class="card">
-            <h3>Our Vision</h3>
-            <p>Empowering beginners to build their own projects with confidence.</p>
-        </div>
-    </section>
-    <section class="team">
-    <h2>Meet the Team</h2>
-    <div class="team-members">
-        <div class="member">
-            <img src="/image/1(1).jpg" alt="Jenny - Founder">
-            <h3>Jenny</h3>
-            <p>Founder & Project Lead</p>
-        </div>
-        <div class="member">
-            <img src="/image/1(1).jpg" alt="Eunice - Developer">
-            <h3>Eunice</h3>
-            <p>Web Developer</p>
-        </div>
-        <div class="member">
-            <img src="/image/1(1).jpg" alt="John - Designer">
-            <h3>John Doe</h3>
-            <p>UI/UX Designer</p>
-        </div>
+  <!-- About Section -->
+  <div class="about-container">
+    <h1>About Page</h1>
+    <p>
+      We are passionate about building simple and impactful digital solutions.
+      This project focuses on improving everyday experiences through technology.
+    </p>
+
+    <div class="info-cards">
+      <div class="info-card">
+        <h3>Our Mission</h3>
+        <p>
+          To create user-friendly and effective digital solutions that solve real-world problems.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h3>Our Vision</h3>
+        <p>
+          To empower people through technology and inspire innovation among young developers.
+        </p>
+      </div>
     </div>
-</section>
-    <footer>
-        <p>&copy; 2026 My Website</p>
-    </footer>
-    
+  </div>
+
+  <!-- Team Section -->
+  <div class="team">
+    <h2>Meet the Team</h2>
+
+    <div class="team-container">
+
+      <div class="member">
+        <img src="../image/1(1).jpg" alt="Jenny">
+        <h3>Jenny</h3>
+        <p>Founder & Project Lead</p>
+      </div>
+
+      <div class="member">
+        <img src="../image/1(1).jpg" alt="Eunice">
+        <h3>Eunice</h3>
+        <p>Frontend & Backend Developer</p>
+      </div>
+
+      <div class="member">
+        <img src="../image/1(1).jpg" alt="John">
+        <h3>John Doe</h3>
+        <p>UI/UX Designer</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2026 My Website
+  </footer>
+
 </body>
 </html>
